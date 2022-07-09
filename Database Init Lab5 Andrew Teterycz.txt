@@ -1,0 +1,7 @@
+drop database if exists company;
+create database company;
+use company;
+create table Employees(name varchar(30), salary int, dept varchar(10));
+insert into Employees values ("andrew", 12345, "CS");
+insert into Employees values ("joe", 12345, "GEO");
+insert into Employees values ("steve", 12345, "PHY");
